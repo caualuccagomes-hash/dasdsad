@@ -1,0 +1,47 @@
+/* Focused mobile layout: no decorative pictograms, no oversized image boxes. */
+@media(max-width:700px){
+ .button svg,.hero-proof i,.address-panel>.icon,.scroll-cue{display:none}
+ .hero-copy{padding-top:20px}
+ .hero .eyebrow{margin-bottom:12px}
+ .hero h1{font-size:clamp(40px,10.7vw,56px);line-height:1.06}
+ .hero .lead{margin-top:14px;line-height:1.65}
+ .hero .actions{margin-top:16px;gap:20px}
+ .hero-proof{margin-top:16px;line-height:1.7}
+ .hero-food{height:180px;margin:0 auto 6px;max-width:300px}
+ .hero-food img{height:245px;top:-34px;transform:rotate(-4deg) scale(1.04)}
+ .hero-food .food-ring{display:none}
+ .hero-food .seal{width:65px;height:65px;top:3px;right:2px;font-size:5px}
+ .hero-food .seal strong{font-size:14px;margin:3px}
+ .hero-food .seal span{font-size:5px}
+ .hero-food figcaption{bottom:0;font-size:8px}
+ .flavors{padding:35px 0 28px}
+ .section-heading .eyebrow{margin-bottom:12px}
+ .section-heading>p{margin-top:12px}
+ .menu-feature{margin-top:0}
+ .menu-feature figure{height:200px;max-width:320px}
+ .menu-feature img{height:260px;top:-33px}
+ .menu-feature-copy{padding-top:10px}
+ .menu-feature h3{margin:10px 0}
+ .menu-feature .button{margin-top:16px;max-width:100%;padding-inline:14px}
+ .order-steps{padding:23px 0}
+ .order-steps>.wrap{gap:16px}.order-steps ol{gap:14px}
+ .about{padding:32px 0}.about-grid{gap:22px}
+ .about .eyebrow{margin-bottom:12px}
+ .about p:not(.eyebrow):not(.editorial-words){margin-top:14px}
+ .about-list{margin:14px 0}.about-list li{padding:7px 0}
+ .real-food-gallery{gap:12px;max-width:340px}
+ .real-food-gallery figure:nth-child(2){margin-top:18px}
+ .real-food-gallery figcaption{margin-top:8px}
+ .reviews{padding-bottom:30px}.review-grid{padding-top:26px;gap:22px}
+ .rating-panel{padding:20px}.rating-panel .rating{margin-top:12px}
+ .quotes{gap:22px}.quotes cite{margin-top:12px}
+ .location{padding:32px 0}.location-grid{gap:24px}
+ .location h2{margin-bottom:16px}.visit-notes{margin-top:20px;padding-top:14px}
+ .address-panel{padding:22px}.address-panel address{margin:16px 0}
+ .final-cta{padding:30px 0}.final-cta h2{margin:12px 0}
+ .final-cta>.wrap{gap:18px}
+ footer{padding-top:28px;padding-bottom:calc(86px + env(safe-area-inset-bottom))}
+ .footer-top{gap:22px}.footer-bottom{margin-top:24px;padding-top:16px}
+ .order-bar{padding:8px 20px calc(8px + env(safe-area-inset-bottom))}
+ .wrap{width:calc(100% - 36px)}
+}
